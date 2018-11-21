@@ -24,7 +24,6 @@ a:hover { color: #996600; }
 
 /*ページ*/
 #page {
-	/*めじるし width: 980px;*/
 	width: 100%;
 	margin: 0 auto;
 }
@@ -60,9 +59,6 @@ a:hover { color: #996600; }
 }
 #pageHead .globalNavi ul li {
 	list-style: none;
-	/*めじるし width: 245px;
-	float: left;
-	border-left: solid 1px #CCCCCC;*/
 	width: 100%;
 	padding: 0 10px;
 	box-sizing: border-box;
@@ -366,9 +362,6 @@ a:hover { color: #996600; }
 	position: absolute;
 	color: #FFF;
 	background-color: rgba(0,0,0,0.4);
-	/*めじるし width: 400px;
-	left: 50px;
-	bottom: 50px;*/
 	width: 100%;
 	bottom: 0;
 	padding: 15px 25px;
@@ -405,9 +398,6 @@ a:hover { color: #996600; }
 }
 
 #pageBody .portfolioIndex article {
-	/*めじるし width: 300px;
-	float: left;
-	margin-left: 40px;*/
 	width: 100%;
 }
 #pageBody .portfolioIndex article:first-child {
@@ -462,5 +452,33 @@ a:hover { color: #996600; }
 * 600px 以上の設定
 ******************************/
 @media (min-width: 600px) {
+
+	/*ページ*/
+	#page {
+		width: 980px;
+	}
+
+	/* グローバルナビ */
+	#pageHead .globalNavi ul li {
+		list-style: none;
+		width: 245px;
+		float: left;
+		border-left: solid 1px #CCCCCC;
+	}
+
+	/* ----- トップページの内容 ----- */
+	/* メインビジュアル */
+	#pageBody .mainVisual .mainVisualText {
+		width: 400px;
+		left: 50px;
+		bottom: 50px;
+	}
+
+	/* 「つくったもの」INDEX */
+	#pageBody .portfolioIndex article {
+		width: 300px;
+		float: left;
+		margin-left: 40px;
+	}
 
 }
