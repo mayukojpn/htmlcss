@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>I love Mayonnaise</title>
+<meta name="description" content="まよねーずが好きなものを紹介します。">
+<link rel="stylesheet" href="common/css/normalize.css">
+<link rel="stylesheet" href="common/css/style.css">
+
+<script src="common/js/jquery-1.10.1.min.js"></script>
+<script src="common/js/jquery.bxslider/jquery.bxslider.js"></script>
+<link rel="stylesheet" href="common/js/jquery.bxslider/jquery.bxslider.css">
+<script>
+$(document).ready(function() {
+  $('.bxslider').bxSlider({
+    auto: true,
+    speed: 1000,
+    pause: 4000
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="page">
+
+<header id="pageHead">
+	<h1 id="siteTitle">I love Mayonnaise</h1>
+	<p id="catchcopy">こんにちは、まよねーずです。私の好きなものを紹介します。</p>
+	<nav class="globalNavi">
+		<ul>
+			<li class="current"><a href="index.html">ホーム</a></li>
+			<li><a href="#">自己紹介 (準備中)</a></li>
+			<li><a href="#">つくったもの (準備中)</a></li>
+			<li><a href="#">おといあわせ (準備中)</a></li>
+		</ul>
+	</nav>
+</header>
+
+<div id="pageBody">
+	<section class="mainVisual">
+		<ul class="bxslider">
+			<li>
+				<div class="mainVisualText">
+					<h1>お外でランチ会</h1>
+					<p>天気がいいと気持ちがいいね！以前はプールだったこの場所はコミュニティスペースになっています。</p>
+				</div>
+				<img src="images/mainVisual_img_03.jpg" width="980" height="500" alt="">
+			</li>
+			<li>
+				<div class="mainVisualText">
+					<h1>ブロッコリーおいしすぎる</h1>
+					<p>今日のダイエット食。生で食べてもおいしいんですよ。</p>
+				</div>
+				<img src="images/mainVisual_img_02.jpg" width="980" height="500" alt="">
+			</li>
+			<li>
+				<div class="mainVisualText">
+					<h1>ハンナ先生の<br>クラウドソーシング講座</h1>
+					<p>講義中はみんなまじめ！</p>
+				</div>
+				<img src="images/mainVisual_img_01.jpg" width="980" height="500" alt="">
+			</li>
+		</ul>
+	</section>
+
+	<section class="portfolioIndex">
+		<article>
+			<a href="#"><img src="portfolio/images/index_03.jpg" width="300" height="163" alt=""></a>
+			<h2><a href="#">ライブラリー</a></h2>
+			<p>夕日の差し込むすてきなスペースだよ！</p>
+		</article>
+		<article>
+			<a href="#"><img src="portfolio/images/index_02.jpg" width="300" height="163" alt=""></a>
+			<h2><a href="#">最寄り駅</a></h2>
+			<p>JR大原駅が最寄りだよ！</p>
+		</article>
+		<article>
+			<a href="#"><img src="portfolio/images/index_01.jpg" width="300" height="163" alt=""></a>
+			<h2><a href="#">ゆくたけさんかわいいな</a></h2>
+			<p>みんなの頼れる統括だよ！</p>
+		</article>
+	</section>
+
+	<section class="news">
+		<h1>おしらせ</h1>
+		<table>
+			<tr>
+				<th><time datetime="2018-11-21">2018年11月21日</time></th>
+				<td>書籍「作りながら学ぶ HTML/CSSデザインの教科書」を修了した方向けに、
+					レスポンシブ対応について学ぶための教材をつくりました。
+				</td>
+			</tr>
+		</table>
+	</section>
+
+</div>
+
+<p class="pagetop"><a href="#page">ページの先頭へ戻る</a></p>
+
+<footer id="pageFoot">
+	<p id="copyright"><small>This website is based on the learning material from <a href="http://htmlcss.cat-speak.net/">作りながら学ぶ HTML/CSSデザインの教科書</a>. Customize, Photo & Text by <a href="https://github.com/mayukojpn">@mayukojpn</a></small></p>
+</footer>
+
+</div>
+
+</body>
+</html>
