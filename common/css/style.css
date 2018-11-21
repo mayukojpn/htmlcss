@@ -60,10 +60,10 @@ a:hover { color: #996600; }
 }
 #pageHead .globalNavi ul li {
 	list-style: none;
-	/*めじるし width: 245px;*/
-	width: 100%;
+	/*めじるし width: 245px;
 	float: left;
-	border-left: solid 1px #CCCCCC;
+	border-left: solid 1px #CCCCCC;*/
+	width: 100%;
 	padding: 0 10px;
 	box-sizing: border-box;
 	text-align: center;
@@ -364,12 +364,13 @@ a:hover { color: #996600; }
 
 #pageBody .mainVisual .mainVisualText {
 	position: absolute;
-	left: 50px;
-	bottom: 50px;
 	color: #FFF;
 	background-color: rgba(0,0,0,0.4);
-	/*めじるし width: 400px;*/
+	/*めじるし width: 400px;
+	left: 50px;
+	bottom: 50px;*/
 	width: 100%;
+	bottom: 0;
 	padding: 15px 25px;
 
 	box-sizing: border-box;
@@ -404,10 +405,10 @@ a:hover { color: #996600; }
 }
 
 #pageBody .portfolioIndex article {
-	/*めじるし width: 300px;*/
-	width: 100%;
+	/*めじるし width: 300px;
 	float: left;
-	margin-left: 40px;
+	margin-left: 40px;*/
+	width: 100%;
 }
 #pageBody .portfolioIndex article:first-child {
 	margin-left: 0;
