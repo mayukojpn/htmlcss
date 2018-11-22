@@ -306,7 +306,7 @@ a:hover { color: #996600; }
 }
 
 
-/* --「つくったもの」一覧ページ-- */
+/* --「hinode の特徴」一覧ページ-- */
 #pageBodyMain .articleList {
 	border: solid 1px #CCCCCC;
 	margin-bottom: 30px;
@@ -387,7 +387,7 @@ a:hover { color: #996600; }
 	position: relative;
 }
 
-/* 「つくったもの」INDEX */
+/* 「hinode の特徴」INDEX */
 #pageBody .portfolioIndex {
 	margin-top: 40px;
 }
@@ -475,7 +475,7 @@ a:hover { color: #996600; }
 		bottom: 50px;
 	}
 
-	/* 「つくったもの」INDEX */
+	/* 「hinode の特徴」INDEX */
 	#pageBody .portfolioIndex article {
 		width: 300px;
 		float: left;
