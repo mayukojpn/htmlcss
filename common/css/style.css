@@ -346,6 +346,8 @@ a:hover { color: #996600; }
 }
 #pageBodyMain .articleList a .articleListImage img {
 	vertical-align: bottom;
+	width: 300px;
+	height: auto;
 }
 
 
