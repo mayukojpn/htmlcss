@@ -63,7 +63,7 @@ a:hover { color: #996600; }
 	padding: 0 10px;
 	box-sizing: border-box;
 	text-align: center;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.429;
 }
 #pageHead .globalNavi ul li:first-child {
@@ -464,6 +464,7 @@ a:hover { color: #996600; }
 		width: 245px;
 		float: left;
 		border-left: solid 1px #CCCCCC;
+		font-size: 14px;
 	}
 
 	/* ----- トップページの内容 ----- */
